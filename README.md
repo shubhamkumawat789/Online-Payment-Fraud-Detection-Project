@@ -25,5 +25,30 @@ Online payment fraud is a growing concern. This project builds a predictive mode
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+- `data/` - Raw & processed datasets
+- `notebooks/` - Jupyter notebooks for EDA & modeling
+- `src/` - Source scripts for preprocessing and modeling
+- `models/` - Saved models
+- `outputs/` - Metrics & visualizations
+
+## ⚙️ Technologies Used
+
+- Python
+- Pandas, NumPy
+- Scikit-learn, XGBoost
+- Matplotlib, Seaborn
+
+## 📊 Model Performance
+
+| Metric        | Score     |
+|---------------|-----------|
+| Accuracy      | 98.5%     |
+| ROC-AUC Score | 0.99      |
+
+## 📦 Setup
+
+```bash
+pip install -r requirements.txt
 
